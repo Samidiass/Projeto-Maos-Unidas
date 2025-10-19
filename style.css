@@ -36,7 +36,8 @@ body {
     list-style: none;
     display: flex;
     gap: 25px;
-}
+    text-decoration: none;
+    }
 
 .menu a {
     color: white;
@@ -83,4 +84,34 @@ footer {
     color: white;
     padding: 50px;
     font-size: 0.9em;
+}
+
+
+
+.text-voluntarios {
+    display: flex; 
+    gap: 40px;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+   
+
+}
+
+.imagem-voluntarios img {
+    width: 350px;
+    height: auto;
+    max-width: 200%;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.menuu {
+    background-color: #5690db;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
 }
